@@ -13,7 +13,7 @@
  //push for dlt last elmnt in array
  //shift for firt element
  //unshft for adding
-code
+/*code
 
  //DATA types in javascript
  //numbers
@@ -132,7 +132,62 @@ if(l < 6  && !(l==6) ){
 }
 l=7;
 //typeof 
-console.log(typeof l);
+console.log(typeof l);*/
+
+
+//day 3
+
+//conditional statements
+var e=10;
+console.log(e);
+
+if(e < 6){
+    console.log("e  is smaller");
+}
+else if(e>8){
+    console.log("e  is bigger");
+}
+else{
+    console.log("e  is zero");
+}
+
+//looping statements
+for(var z=0;z<4;z++){
+    console.log("hello");
+}
+
+//functions
+
+function str(){
+    console.log("stringgg");
+}
+str();
+
+//Arrow function
+
+var strr=()=>{
+    console.log("arrow function");
+}
+strr();
+
+//map function
+
+var ary=[1,2,3];
+var sqr=ary.map((n)=>
+{
+    return n*n;
+})
+console.log(ary);
+console.log(sqr);//square
+
+//spread operators
+var nums=[1,2,3,4,5];
+var numb=[...nums,12,13,14];
+console.log(numb);
+
+
+
+
 
 
 
